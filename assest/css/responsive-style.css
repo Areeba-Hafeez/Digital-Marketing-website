@@ -1,0 +1,143 @@
+@media (max-width: 1300px) {
+
+  /* Navbar */
+  .header-wrapper .menu-navbar-nav {
+    width: auto;
+  }
+
+
+}
+
+
+@media (max-width: 1230px) {
+
+  /* Navbar */
+  .header-wrapper .nav-item {
+    margin: 0px 5px;
+  }
+
+  .header-wrapper .learn-more-btn {
+    padding: 12px 10px !important;
+  }
+
+  /* banner */
+  .banner-wrapper .banner-title {
+    font-size: 50px;
+  }
+
+}
+
+
+@media (max-width: 1070px) {
+  .header-wrapper .nav-item .nav-link {
+    font-size: 16px;
+  }
+  /* About */
+  .about-wrapper .about-title{
+    font-size: 16px;
+  }
+  /* Pricing */
+  
+}
+
+@media (max-width: 991px) {
+  .header-wrapper .navbar-brand img {
+    width: 180px;
+  }
+
+  .navbar-toggler{
+    border :none !important;
+    font-size: 2rem !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+   
+
+  }
+
+  .header-wrapper .menu-navbar-nav {
+    text-align: center;
+  }
+
+  .header-wrapper .nav-item .nav-link {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .header-wrapper .nav-item:last-child .nav-link {
+    margin-bottom: 20px;
+  }
+
+  .header-wrapper .learn-more-btn {
+    padding: 12px 29px !important;
+  }
+
+  .header-wrapper .navbar-collapse {
+    background-color: white;
+  }
+
+  /* banner */
+  .banner-wrapper .banner-title {
+    font-size: 36px;
+  }
+  .about-wrapper .about-number{
+    margin: 20px auto;
+  }
+  .about-wrapper .about-title{
+    font-size: 24px;
+  }
+  .about-wrapper .projects h2{
+    font-size: 1.6rem;
+  }
+
+}
+
+
+@media(max-width: 767px) {
+  /* banner */
+  .banner-wrapper {
+    padding: 100px 0px 100px;
+
+  }
+  .banner-wrapper .row {
+    flex-direction: column-reverse;
+  }
+  .banner-wrapper .header-img-section {
+    width: 100%;
+  }
+  .banner-wrapper .learn-more-btn-section {
+    justify-content: center;
+  }
+.feature-wrapper h3{
+  font-size: 15px;
+}
+
+/* brand */
+.brand-wrapper .showcase-card img{
+  width: 100%;
+  margin: .2rem;
+
+}
+/* Faqs */
+.faqs-wrapper .accordion-button{
+ font-size: 10px;
+}
+
+.accordion-body p{
+  font-size: 13px;
+}
+/* Footer */
+.footer-wrapper .footer-logo   img{
+  max-width:50%;
+}
+
+
+}
+
+@media (max-width :600px ){
+  .client-heading{
+    font-size: 2rem !important;
+  }
+}
+
